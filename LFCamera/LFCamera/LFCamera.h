@@ -16,7 +16,7 @@ typedef NS_ENUM(NSInteger, LFCaptureFlashMode) {
 
 @interface LFCamera : UIView
 
-@property (assign, nonatomic) CGRect effectiveRect;//拍摄有效区域
+@property (assign, nonatomic) CGRect effectiveRect;//拍摄有效区域（（可不设置，不设置则不显示遮罩层和边框）
 
 //有效区边框色，默认橘色
 @property (nonatomic, strong) UIColor *effectiveRectBorderColor;

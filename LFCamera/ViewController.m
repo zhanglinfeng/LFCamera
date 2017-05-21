@@ -25,6 +25,8 @@
     //本界面可以随便怎么设计，我这里只做个粗糙版。核心是LFCamera
     
     self.lfCamera = [[LFCamera alloc] initWithFrame:self.view.bounds];
+    
+    //拍摄有效区域（可不设置，不设置则不显示遮罩层和边框）
     self.lfCamera.effectiveRect = CGRectMake(20, 200, self.view.frame.size.width - 40, 280);
     [self.view insertSubview:self.lfCamera atIndex:0];
     

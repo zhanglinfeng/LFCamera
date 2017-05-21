@@ -58,3 +58,10 @@ fastlane/screenshots
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+Pods/Target Support Files/Pods-LFCamera/Pods-LFCamera-acknowledgements.markdown
+Pods/Target Support Files/Pods-LFCamera/Pods-LFCamera-acknowledgements.plist
+Pods/Target Support Files/Pods-LFCamera/Pods-LFCamera-dummy.m
+Pods/Target Support Files/Pods-LFCamera/Pods-LFCamera-frameworks.sh
+Pods/Target Support Files/Pods-LFCamera/Pods-LFCamera-resources.sh
+Pods/Target Support Files/Pods-LFCamera/Pods-LFCamera.debug.xcconfig
+Pods/Target Support Files/Pods-LFCamera/Pods-LFCamera.release.xcconfig
