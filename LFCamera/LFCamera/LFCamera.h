@@ -47,5 +47,7 @@ typedef NS_ENUM(NSInteger, LFCaptureFlashMode) {
 /**重拍*/
 - (void)restart;
 
-@end
+/**调整图片朝向*/
++ (UIImage *)fixOrientation:(UIImage *)aImage;
 
+@end
