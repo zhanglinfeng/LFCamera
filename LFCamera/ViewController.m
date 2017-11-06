@@ -12,7 +12,7 @@
 
 @interface ViewController ()
 
-@property (strong, nonatomic) IBOutlet LFCamera *lfCamera;
+@property (strong, nonatomic) LFCamera *lfCamera;
 @property (strong, nonatomic) LFCameraResultView *resultView;//结果view
 
 @end
